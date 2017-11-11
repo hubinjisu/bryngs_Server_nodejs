@@ -1,0 +1,26 @@
+{
+  "name": "bryngs_db_server",
+  "version": "0.1.0",
+  "description": "Server app for bryngs using Express 4 to deal with the data in Mongodb",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "del": "2.2.0",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "jsonwebtoken": "^7.4.1",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.7.0",
+    "randomstring": "^1.1.5",
+    "nodemailer": "^0.7.1",
+    "superlogin": "^0.6.1"
+  }
+}
